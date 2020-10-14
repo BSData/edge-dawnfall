@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="57c0-8976-ce36-36de" name="Reborn" revision="1" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="47a6-3234-a59b-dfc5" name="Herbs / Empowering" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8351-8a80-1e7e-eb45" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f45-8b4c-e045-8b31" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6ae0-6565-7d73-17cc" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Herbs</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Empowering</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Warbeast</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2089-6b7a-87c2-b395" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="6e86-a75e-7ad5-77e5" name="Photosynthesis / Forest Elemental" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="70c6-4137-b90e-6607" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f21c-ebb1-09d3-18af" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="41ba-7088-6d7d-d0f9" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Photosynthesis</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Forest Elemental</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Forest Wraith</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fc06-3e9b-44c2-a794" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="1e89-d5ff-e02e-eb04" name="Additional Wound / Thorn Beast" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="70c6-4137-b90e-6607" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e79-3831-fb76-0cf5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c542-0936-4378-96f6" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Additional Wound</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Thorn Beast</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Forest Wraith</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6ee0-93f2-bbbe-fcfc" name="Deployment Enhancement" hidden="false" targetId="5343-b9d5-97e2-5e04" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="f06f-76f8-f9a5-64d6" name="Sprout / Seed" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb69-92b7-5d98-93e6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9e6d-c3d3-e81f-94b8" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Sproud</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Seed</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b6b9-0a4e-2239-b664" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="9ad1-455f-4372-c215" name="Woodwalk / Crawling Jungle" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ab-d35a-27cf-c3fe" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4889-393f-cc30-70a6" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Woodwalk</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Crawling Jungle</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4a3d-3168-e60f-8f46" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="2577-b07f-f0c6-6e79" name="Paralysis / Overgrow" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1af2-d2fe-dd0a-0060" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae6c-b9f4-8c8b-627a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a202-c5c4-f715-47be" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Paralysis</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Overgrow</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Oracle of Wrath</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="935f-b662-4046-2565" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="5af1-4869-3264-9243" name="Sprout / Call of the Wilds" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1af2-d2fe-dd0a-0060" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a33-d802-2492-aa4e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0f7e-bd9d-83a0-0e03" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Sprout</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Call of the Wilds</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Oracle of Wrath</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="dba8-e5fc-8aaf-0bee" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="43b5-c41d-09b6-cc17" name="Sprout / Weakening" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1af2-d2fe-dd0a-0060" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c827-ca58-4ad0-a523" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a260-3298-adb9-cd27" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Sprout</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Weakening</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Oracle of Wrath</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f764-931a-3707-48f8" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="5aa5-6141-cc80-decd" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="53fa-61de-d69a-8152" name="Reroll / Blitz" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cf75-5213-9aa2-f55c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c743-42fa-26d1-391e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a2df-157a-e8c2-ea0e" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Reroll</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Blitz</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Blight Steed</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3a35-2f5b-efb1-59dc" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="34a4-139d-de05-aa8d" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="6abd-66a1-7d3d-1f40" name="Woodwalk / Battering Ram" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cf75-5213-9aa2-f55c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b139-3122-f640-6e9b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="41f3-58dc-d2f3-b793" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Woodwalk</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Battering Ram</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Blight Steed</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e626-e732-4550-6f9d" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="32d8-262e-8ea8-4544" name="Woodwalk / Wild Charge" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cf75-5213-9aa2-f55c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5f5-0d25-29ea-f078" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="be41-c10d-cd13-5a6a" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Woodwalk</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Wild Charge</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Blight Steed</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="05c0-97c6-b843-74e1" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="8114-d0f9-94e6-c93b" name="Green Haze / Bloodlust" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8351-8a80-1e7e-eb45" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1674-5652-c879-e8c2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="495b-05d3-fe18-77c4" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Green Haze</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Bloodlust</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Warbeast</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ec70-336b-11b4-eecd" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="0e5a-7209-1dd7-8a08" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="d244-28fc-cfaf-f473" name="Herbs / Spikes Explosion" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="70c6-4137-b90e-6607" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="910f-efe2-a3dd-0ef5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="735f-4293-81ea-82e4" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Herbs</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Spikes Explosion</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Forest Wraith</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3450-7dd1-1a9e-2f8f" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="8b66-a62d-f200-2af4" name="Woodwalk / Shapeshift" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8351-8a80-1e7e-eb45" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b7b-2f57-2ec6-747f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="edd1-aeb0-1971-49db" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Woodwalk</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Shapeshift</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Warbeast</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="feb2-bc8b-73f6-c811" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="155f-de69-552b-3c20" name="Defense / Burrow" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5291-e8b8-54c3-5cf7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ab2-a913-0c5a-08b9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="752b-c470-ff00-f4a0" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Defense</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Burrow</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Wyrm</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5026-1d6a-f105-2d84" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="77e4-e05e-a854-03ba" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="a2ef-13f0-7cb8-3b29" name="Photosynthesis / Dragging" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5291-e8b8-54c3-5cf7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb38-504e-f956-f31e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e83e-ee72-d905-4564" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Photosynthesis</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Dragging</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Wyrm</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0f07-eb49-0cab-d161" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="dcba-44f1-884e-70ed" name="Paralysis / Underground Strike" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5291-e8b8-54c3-5cf7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9d1-00b2-564d-47a3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a493-67de-9072-b8e1" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Paralysis</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Underground Strike</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Wyrm</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4af6-1b15-8684-13ce" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="ce57-47df-efca-71a7" name="Dodge / Animate Woods" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6bc9-a7c5-6d85-7ae2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01f9-dbbb-6474-a297" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a922-ad0a-6791-f316" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Dodge</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Animate Woods</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Treemaid</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5394-c95b-2c25-a455" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="30cb-1e48-2775-3f8a" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="3455-c4a4-9c2d-1f49" name="Photosynthesis / Allure" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6bc9-a7c5-6d85-7ae2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97b8-cac4-e108-cfff" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c998-0c5a-63d2-0c0d" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Photosynthesis</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Allure</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Treemaid</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="769f-3c72-d8f1-337c" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="f732-d285-62bf-91bd" name="Sprout / Lycanthropy" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6bc9-a7c5-6d85-7ae2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16d4-ed93-0851-3498" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9831-cd43-48f7-8f92" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Sprout</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Lycanthropy</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Treemaid</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f8a4-93ea-01c9-fbb1" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="5e1f-53aa-d232-f33f" name="Herbs / Sowing" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6bc9-a7c5-6d85-7ae2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c51-a86f-bd93-e0ba" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f1c1-641d-a4e3-dc25" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Herbs</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Sowing</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Treemaid</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="bfbe-205e-f1c8-3c5a" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="a484-65e1-22cf-a048" name="Backstab / Vanishing" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fca3-1094-7b0b-55e2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3689-fa5d-6520-e891" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3baa-8a80-7963-0340" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Backstab</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Vanishing</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Ancient Guard</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="cdd7-d27e-25fc-8bf2" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="93e2-11ef-cf84-fa9e" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="885f-ecf1-da08-de2c" name="Backstab / Poisonous Vines" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fca3-1094-7b0b-55e2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2f7-c689-7030-eca7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="877f-7314-afde-9152" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Backstab</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Poisonous Vines</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Ancient Guard</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0c15-1da0-c262-bc09" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="adc4-0819-5b26-a9ae" name="Herbs / Rooted" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fca3-1094-7b0b-55e2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="879a-8c22-79c6-f515" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9adf-4622-39e6-c7c7" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Herbs</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Rooted</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Ancient Guard</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1f82-affd-0074-efdc" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="4548-6e4b-12ad-df7a" name="Alternative Reborn Banner" hidden="false" collective="false" import="true" targetId="adca-9d17-97d4-16fb" type="selectionEntry"/>
+    <entryLink id="7e50-20cf-f21a-e93c" name="Reborn Banner" hidden="false" collective="false" import="true" targetId="0ccb-b5c1-8ace-61a8" type="selectionEntry"/>
+    <entryLink id="438b-0e91-82d7-f0d7" name="Thornheart Wood" hidden="false" collective="false" import="true" targetId="3682-6030-dd87-c8ac" type="selectionEntry"/>
+    <entryLink id="1e35-dfd4-e32c-6db6" name="Sapping Briar" hidden="false" collective="false" import="true" targetId="a696-f546-97ff-fa30" type="selectionEntry"/>
+    <entryLink id="daed-a839-430f-0822" name="Warbeast" hidden="false" collective="false" import="true" targetId="8351-8a80-1e7e-eb45" type="selectionEntry"/>
+    <entryLink id="eab4-f24a-18d3-4250" name="Forest Wraith" hidden="false" collective="false" import="true" targetId="70c6-4137-b90e-6607" type="selectionEntry"/>
+    <entryLink id="0595-2a01-cb0d-2b70" name="Ancient Guard" hidden="false" collective="false" import="true" targetId="fca3-1094-7b0b-55e2" type="selectionEntry"/>
+    <entryLink id="556a-851a-5f6f-d027" name="Wyrm" hidden="false" collective="false" import="true" targetId="5291-e8b8-54c3-5cf7" type="selectionEntry"/>
+    <entryLink id="2539-2ec0-dead-775d" name="Blight Steed" hidden="false" collective="false" import="true" targetId="cf75-5213-9aa2-f55c" type="selectionEntry"/>
+    <entryLink id="6c2f-c64b-dc37-e6a5" name="Treemaid" hidden="false" collective="false" import="true" targetId="6bc9-a7c5-6d85-7ae2" type="selectionEntry"/>
+    <entryLink id="b7f3-1910-cee8-2543" name="Oracle of Wrath" hidden="false" collective="false" import="true" targetId="1af2-d2fe-dd0a-0060" type="selectionEntry"/>
+    <entryLink id="af49-bf65-ceed-9e38" name="Symbiosis / Manifestation" hidden="false" collective="false" import="true" targetId="96c5-2b10-de44-d02e" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

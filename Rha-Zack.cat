@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0708-55e3-5a20-0c89" name="Rha-Zack" revision="1" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="1272-9a17-0785-907b" name="Temporary Setback / Lightning Strike" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb5d-ec78-3179-af5a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2596-707e-8ef2-0532" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b103-7ea4-6edb-1532" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Temporary Setback</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Lightning Strike</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Jumpsuit</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e6ed-0f12-19cf-7fae" name="New CategoryLink" hidden="false" targetId="5343-b9d5-97e2-5e04" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="d0a5-2db8-406b-2381" name="Energy Cloud / Barrier" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb5d-ec78-3179-af5a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb57-2bc7-3b6d-348d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="33fc-5e48-0398-ba3c" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Energy Cloud</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Barrier</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Jumpsuit</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fbbd-da77-b4f0-5c43" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="0bd7-1f0e-ccd6-b228" name="Charge / Gavitron Punch" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb5d-ec78-3179-af5a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ed4-1e0f-4667-7776" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="576b-c50b-818a-bc1a" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Charge</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Gavitron Punch</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Jumpsuit</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f330-7f87-4a15-78ca" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="6f6c-85b7-5c53-8145" name="Enhanced Vision / Drill" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a73f-a07e-4c17-5ffc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="dcc8-78ad-018e-9c7f" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Enhanced Vision</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Drill</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6a9b-bce2-6445-89a2" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="6eeb-bd9c-ef49-6791" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="59ad-424e-cf7d-f0e9" name="Refresh Crystal / Glide" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87fb-8132-7c07-e578" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f6ca-c10c-bf8a-13ba" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Refresh Crystal</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Glide</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="07b1-1575-d13c-d87f" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="1820-54d1-3293-3891" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="3bb6-2d76-dfe2-76df" name="Backstab / Self-Repair" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f188-c872-41ad-b532" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="493a-ad00-feb6-99d8" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Backstab</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Self-Repair</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d88f-e6d8-5f09-e5c3" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="6bac-9c25-f65b-af1b" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="7310-eb5e-a48a-dbe3" name="Source / Quickening" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b162-cec1-05fc-fa30" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8a15-f01f-4f4e-9e96" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Source</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Quickening</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ef6b-6d0b-7074-a968" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="4c62-fec3-a772-cf5f" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="cc1a-538c-5258-4d4c" name="Move / Minelayer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="164c-85e2-8763-07f8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6e02-f218-796f-74c2" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Move</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Minelayer</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="26bc-7a2c-f28c-6b8e" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="0383-57d1-af40-b574" name="Common Self / Time Jump" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9475-3206-a9e0-999c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b15f-8de0-a419-86a7" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Common Self </characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Time Jump</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1895-de20-5e20-35e7" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="4e55-9a9f-cd3e-d2a8" name="Harvest / Energy Shields" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="160e-c720-ec8a-9e5d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15dd-1dcf-16f8-c090" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0f3b-4510-fa40-136a" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Harvest</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Energy Shields</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Infinity Angel</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="076f-10bd-a1b1-0a2c" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="1ba6-ed1f-2982-5b76" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="261c-55fe-171e-9efc" name="Focus / Laser Whip" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="160e-c720-ec8a-9e5d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="457f-e12c-425a-747d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d4c6-31ea-720e-4142" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Focus</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Laser Whip</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Infinity Angel</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2406-04fc-2368-f7e1" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="604b-1ccb-94c7-8e9b" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="ac08-db37-76c2-b60f" name="Backstab / Energy Beam" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="160e-c720-ec8a-9e5d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8f5-6532-584d-67b4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f976-2ffc-81fc-d0a1" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Backstab</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Energy Beam</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Infinity Angel</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="49b4-5214-088e-750e" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="57a0-da03-40c5-0ec1" name="Energy Cloud / Order" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="160e-c720-ec8a-9e5d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8890-f6e0-0870-f16d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e288-9625-739d-e057" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Energy Cloud</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Order</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Infinity Angel</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fecf-1ddb-ef85-e80b" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="f590-10b9-8af3-dd38" name="Reroll / Power Swords" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8e06-f08b-c7a8-8345" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7611-6ecf-5796-0df6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f522-f051-f347-7d4c" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Reroll</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Power Swords</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Stream Guard</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1ac3-d3d2-9541-c1ae" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="ddae-ca09-171e-c4bc" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="39d1-0661-6561-be97" name="Move / Jump" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8e06-f08b-c7a8-8345" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1500-9669-c6fc-4cfc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="448e-9fbe-fb4c-dce6" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Move</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Jump</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Stream Guard</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="362e-ddbb-4abf-608a" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="106e-27d0-ce68-6ca1" name="Energy Cloud / Shoot" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8e06-f08b-c7a8-8345" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46d2-75b7-44b6-c2a8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5a40-e503-ad72-4ef8" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Energy Cloud</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Shoot</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Stream Guard</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4753-4071-5df8-0ef4" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="e7b8-49a7-e419-a134" name="Common Self / Lightning" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="283b-729c-1da3-b6ea" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="315a-6a6c-ba37-348e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6801-8399-58f4-e8d1" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Common Self</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Lightning</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Storm Bringer</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="93e4-6af5-7374-9e60" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="a289-9239-1a10-f963" name="Energy Cloud / Ray" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="283b-729c-1da3-b6ea" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd0e-bd81-3585-b043" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a1c6-3bee-beb3-1a42" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Energy Cloud</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Ray</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Storm Bringer</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="bd53-f33b-bd0d-0e44" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="2b56-c3d4-2c1f-2199" name="Charge / Shock" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="283b-729c-1da3-b6ea" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2679-6fe5-af66-16e8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1da5-b22d-7749-1ced" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Charge</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Shock</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Storm Bringer</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9e60-9212-f290-5f1a" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="6d67-172a-29ae-5657" name="Move / Friction" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8cbf-47c2-f467-0ed1" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a43e-302b-bc6b-69be" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a7a6-2d28-03c5-6506" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Move</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Friction</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Stream Surfer</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="750b-64c9-68e9-67f6" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="0f2c-247c-73b4-7ed5" name="Energy Cloud / Surf" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8cbf-47c2-f467-0ed1" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9213-9e3e-c6ea-8a9f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a672-3068-5b42-6fef" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Energy Cloud</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Surf</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Stream Surfer</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0b03-c673-f3e9-509c" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="b983-a1d2-6c35-74dd" name="Focus / Shadowing" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="449c-443c-6a52-cadf" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2e1-2167-0ec8-48e5" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c55f-f9d2-568a-b283" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Focus</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Shadowing</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Source Blade</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="15bb-31f4-0248-f282" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="ecd5-6346-4043-2ece" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="3b0c-8da9-6804-bfce" name="Combat / Energy Transfer" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="449c-443c-6a52-cadf" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84e8-efdd-82b5-fc25" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ff1c-09e4-0cfb-c5cc" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Combat</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Energy Transfer</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Source Blade</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a523-4a6b-7585-c0e3" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="1288-4d61-23d5-e36c" name="Foresight / Source Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="449c-443c-6a52-cadf" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87e1-634b-b2be-3f38" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4dec-11c0-2440-6a9b" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Foresight</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Source Blade</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Source Blade</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="08ee-448a-39b0-984c" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="2c36-b5f8-43f2-c788" name="Rha-Zack Banner" hidden="false" collective="false" import="true" targetId="6a39-c080-d890-64dd" type="selectionEntry"/>
+    <entryLink id="ec1e-9a02-f5b1-4051" name="Rha-Zack Alternative Banner" hidden="false" collective="false" import="true" targetId="3609-53be-80c4-921c" type="selectionEntry"/>
+    <entryLink id="26c0-e558-bb9e-e379" name="Voltaic Capacitor" hidden="false" collective="false" import="true" targetId="0b2e-d015-91a3-6fbe" type="selectionEntry"/>
+    <entryLink id="fbe0-c39e-0329-3ee1" name="Energy Cloud" hidden="false" collective="false" import="true" targetId="6b8e-5816-6e13-57aa" type="selectionEntry"/>
+    <entryLink id="65e1-a117-e46d-9ab2" name="Jumpsuit" hidden="false" collective="false" import="true" targetId="fb5d-ec78-3179-af5a" type="selectionEntry"/>
+    <entryLink id="e41a-0a63-f704-0da7" name="Source Blade" hidden="false" collective="false" import="true" targetId="449c-443c-6a52-cadf" type="selectionEntry"/>
+    <entryLink id="956b-3781-65d5-712e" name="Stream Guard" hidden="false" collective="false" import="true" targetId="8e06-f08b-c7a8-8345" type="selectionEntry"/>
+    <entryLink id="6083-4caf-7e28-edc9" name="Stream Surfer" hidden="false" collective="false" import="true" targetId="8cbf-47c2-f467-0ed1" type="selectionEntry"/>
+    <entryLink id="a07e-a935-98b7-e8bd" name="Storm Bringer" hidden="false" collective="false" import="true" targetId="283b-729c-1da3-b6ea" type="selectionEntry"/>
+    <entryLink id="c73b-023a-4435-8ce7" name="Infinity Angel" hidden="false" collective="false" import="true" targetId="160e-c720-ec8a-9e5d" type="selectionEntry"/>
+    <entryLink id="0f7f-b17e-907b-d31f" name="Descend / From the Skies" hidden="false" collective="false" import="true" targetId="d842-9b48-eac6-d059" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

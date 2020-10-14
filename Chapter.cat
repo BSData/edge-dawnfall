@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="556b-8b8a-3c6c-e7d3" name="Chapter" revision="1" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="fdb5-639c-1bdb-70e4" name="Combat / Storm of Blades" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7691-38ab-a115-d7ce" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d9f-88ed-4980-0a39" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9009-89c8-b58d-b14b" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Combat</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Storm of Blades</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Angel of Death</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5f78-9af5-e819-18ea" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="578d-a4d4-1dbf-be8a" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="14af-e1d5-1c09-1ffa" name="Defense / Guardian Angel" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7691-38ab-a115-d7ce" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6214-2b08-096c-7e80" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cf5a-ede0-d003-ee43" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Defense</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Guardian Angel</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Angel of Death</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7575-687c-1345-37a4" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="4a2b-7142-97af-f8a6" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="7353-056d-0ca8-9963" name="Move And Combat / Winged Death" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7691-38ab-a115-d7ce" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54d5-8761-6ff5-1898" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4e29-971e-5550-d44c" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Move And Combat</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Winged Death</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Angel of Death</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="189f-1313-6aa6-8958" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="bb39-38c8-1a7e-d232" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+        <categoryLink id="67e0-d726-a8b7-b77d" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="ba0d-6012-3dcd-d690" name="Combat / Judgment" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7691-38ab-a115-d7ce" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7587-7893-2955-08d2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5dee-8696-085e-c579" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Combat</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Judgment</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Angel of Death</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="32d7-051e-37ab-037c" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="812a-fc3b-06d8-a62a" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+        <categoryLink id="5ee4-7d54-f061-59b5" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="6b4f-1e7a-cddb-b8a7" name="Charging / Energy Drain" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8657-d228-7064-260a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="887b-0d0c-af1f-0594" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bca8-e0df-f1d2-4007" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Charging</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Energy Drain</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Pilgrim</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e07d-11ef-339a-ceaf" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="229d-0b60-3051-f54a" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="bfda-cbaa-f4fa-4994" name="Charging / Purging" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c22d-aab1-9061-0efd" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71cc-d34b-a465-f0df" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="31b4-95c4-69a0-9f53" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Charging</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Purging</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Purge Doctor</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c3ff-7bee-e282-bb3c" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="a753-d74d-0097-31ab" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="2145-7c44-03f8-1f2a" name="Charging / Trap" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38f6-68c7-293b-7e91" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0ce1-3f34-fd1f-4aa8" name="Charging / Trap" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Charging</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Trap</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7bac-0d14-0cdb-7c10" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="07d0-f43d-1495-c581" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="01b9-be45-8d69-03d6" name="Combat / Dying Breath" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="28d4-b15b-85cf-b3d8" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc19-0e9f-f54b-c700" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="103b-fb8d-b379-cbd4" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Combat</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Dying Breath</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Holy Riders</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0d2c-0149-a041-7e5e" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="f20f-f9ba-f51c-d7cf" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="baf1-7e32-7612-f3cb" name="Combat / Overwatch" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9527-93f0-a66a-45d2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9e69-ffd7-abd2-423e" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Combat</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Overwatch</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ccd2-1e9d-73b0-d5ca" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="c7f2-ac05-c1ce-0c5d" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+        <categoryLink id="a8b3-cacb-fca3-92cc" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="f085-af32-fe2d-3930" name="Combat / Tactic" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd58-1c42-8713-92c7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c095-0801-8089-3774" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Combat</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Tactic</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a0ac-1143-46ee-d7a6" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="685d-5abf-3eff-40bb" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+        <categoryLink id="69ca-feab-e89f-fb21" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="e6bc-cce9-204b-57b4" name="Move / Formation" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="032f-fa6a-97ae-1fa7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38dc-cfcf-e208-74c3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="24f7-190c-71e9-0737" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Move</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Formation</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Holy Knight</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8905-4d6e-8db0-f7e1" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="bf01-03a0-2c61-3a0e" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="64e0-29b5-4096-6302" name="Defense / Charged Shot" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c22d-aab1-9061-0efd" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b972-9ea3-fa33-1918" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e13d-3a48-5a7b-9ff9" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Defense</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Charged Shot</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Purge Doctor</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3332-bb8e-dd09-1f8e" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="71ab-d439-7d60-fbd1" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+        <categoryLink id="04ce-ae54-4c0b-bcf6" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="02ce-5df4-6a02-583b" name="Defense / Firing Position" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc4f-633f-f524-ad49" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba7d-a204-a2e8-dad1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d35a-e7c9-a201-a084" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Defense</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Firing Position</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Ranger</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="26cb-4500-b8d6-731f" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="01c3-3c42-6ce5-77c6" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+        <categoryLink id="a216-92e5-0285-5b49" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="302a-3ef3-319e-0fe5" name="Defense / Shield Wall" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="032f-fa6a-97ae-1fa7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b213-bbdf-4468-dc0a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1988-a4a1-6beb-cd5b" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Defense</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Shield Wall</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Holy Knight</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="87f4-cf45-e941-9aa5" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="b412-d7ca-4847-fe53" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="58cd-dbc0-c850-dde3" name="Dodge / Leap" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="032f-fa6a-97ae-1fa7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="263f-6cdd-dc56-95a1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="913e-8b5f-85a2-47a1" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Dodge</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Leap</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Holy Knight</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="650c-e1c7-04f2-8c80" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="4aa5-de62-be57-b1e7" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="cb4e-8485-2e3d-4837" name="Haste / Gallop" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="28d4-b15b-85cf-b3d8" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3539-8b8c-e1d1-fcd6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5b32-44f3-ad72-230d" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Haste</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Gallop</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Holy Riders</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6594-bf88-9465-1045" name="New CategoryLink" hidden="false" targetId="5343-b9d5-97e2-5e04" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="7ea8-1b50-c191-dfe2" name="Dodge / Shoot" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="cc4f-633f-f524-ad49" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd33-5ec4-1724-ae93" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="949a-ab1a-2629-ecfa" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Dodge</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Shoot</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Ranger</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8589-d56b-f0ca-a371" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="e70d-c52d-08f0-bde1" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="cefe-6671-11d6-4f46" name="Inspire / Trample" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="28d4-b15b-85cf-b3d8" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bab-92da-e4fb-26a4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b728-8388-ec59-d74b" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Inspire</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Trample</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Holy Riders</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="53a0-273d-ad37-93ce" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="fd7a-7fd5-de40-04f7" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="e0ae-d479-68cd-ba19" name="Move / Bash" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="032f-fa6a-97ae-1fa7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23da-fb97-c2bb-b105" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1ab6-6c3f-7c1a-678f" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Move</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Bash</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Holy Knight</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1389-dada-348e-b977" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="95cb-5534-6fcd-a9c2" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="9c05-95cf-a181-f06f" name="Move / Power of Technology" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c22d-aab1-9061-0efd" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdf0-5acf-eedc-7338" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7aa8-3190-6a4e-8c0f" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Move</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Power of Technology</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Purge Doctor</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4b0d-61a3-4379-6830" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="db3f-7865-8dc3-c1b7" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="94cd-b65e-d23a-8163" name="Revenge / Last Man Standing" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8657-d228-7064-260a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6acf-18e9-c8f5-6147" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="db5c-81cb-f205-c163" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Revenge</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Last Man Standing</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Pilgrim</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="273b-2b88-a9bb-7746" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="7f4d-08ab-0690-4fae" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+        <categoryLink id="0fa2-3e3f-cbd2-3714" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+        <categoryLink id="700e-c23f-f276-eab6" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="ba80-6ea8-5c57-b07e" name="Successful Defense / Guard" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="032f-fa6a-97ae-1fa7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdb1-fcc0-cd2f-c855" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9ffd-4a99-0a80-1e68" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Successful Defense</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Guard</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Holy Knight</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d808-bb3a-4876-aa77" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="97fc-2800-bfc1-ee5b" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+        <categoryLink id="ca40-b471-57e6-23fd" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+        <categoryLink id="a4c7-64b5-d4c1-fb28" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="2f7b-deca-7cd7-c818" name="Worthless / Fake Death" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8657-d228-7064-260a" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a46a-8762-fbd2-d6fd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="922f-c167-8fc4-449a" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+          <characteristics>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Worthless</characteristic>
+            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Fake Death</characteristic>
+            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Pilgrim</characteristic>
+            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ec27-8ad5-c4cf-6b86" name="Action" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
+        <categoryLink id="252c-d6ef-ffcb-360b" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
+        <categoryLink id="228a-b544-7187-a911" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+        <categoryLink id="2a97-aaa5-4805-da78" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="508e-e3af-ae5f-7cdf" name="Angel of Death" hidden="false" collective="false" import="true" targetId="7691-38ab-a115-d7ce" type="selectionEntry"/>
+    <entryLink id="7f50-c634-0367-46e7" name="Holy Knight" hidden="false" collective="false" import="true" targetId="032f-fa6a-97ae-1fa7" type="selectionEntry"/>
+    <entryLink id="7662-fceb-36c8-9825" name="Holy Riders" hidden="false" collective="false" import="true" targetId="28d4-b15b-85cf-b3d8" type="selectionEntry"/>
+    <entryLink id="9830-f1d4-75cf-1f8a" name="Pilgrim" hidden="false" collective="false" import="true" targetId="8657-d228-7064-260a" type="selectionEntry"/>
+    <entryLink id="7ae1-5f88-91df-2891" name="Purge Doctor" hidden="false" collective="false" import="true" targetId="c22d-aab1-9061-0efd" type="selectionEntry"/>
+    <entryLink id="5e9c-1fd6-b20c-6d4d" name="Ranger" hidden="false" collective="false" import="true" targetId="cc4f-633f-f524-ad49" type="selectionEntry"/>
+    <entryLink id="e9d3-e3c6-8631-51d0" name="Sanctuary" hidden="false" collective="false" import="true" targetId="0a05-c702-a0a7-5e98" type="selectionEntry"/>
+    <entryLink id="9685-12bd-2102-1537" name="Frontline Chapel" hidden="false" collective="false" import="true" targetId="fc46-b576-2e3a-1515" type="selectionEntry"/>
+    <entryLink id="9583-6e24-08f9-08e0" name="Chapter Banner" hidden="false" collective="false" import="true" targetId="9ab9-9d4a-3aa9-b924" type="selectionEntry"/>
+    <entryLink id="361a-ab56-0ec7-0d07" name="Alternative Chapter Banner" hidden="false" collective="false" import="true" targetId="be35-556b-320c-3709" type="selectionEntry"/>
+    <entryLink id="6a52-fcce-c9ce-a641" name="Reinforcements / Winged Charge" hidden="false" collective="false" import="true" targetId="579a-4b9b-2c7b-e7c8" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>
