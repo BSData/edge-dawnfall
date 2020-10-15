@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="86ce-4953-5e80-27e6" name="Dvergar" revision="2" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="86ce-4953-5e80-27e6" name="Dvergar" revision="2" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f9b9-add4-5021-81b3" name="Combat / Radiostation" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -529,7 +529,6 @@
     <entryLink id="bf75-0379-8eca-6fe2" name="Alternative Dvergar Banner" hidden="false" collective="false" import="true" targetId="258f-ef31-5573-b1aa" type="selectionEntry"/>
     <entryLink id="c9d5-fe7f-385b-1e13" name="Junkyard" hidden="false" collective="false" import="true" targetId="daf7-0441-7e9b-c688" type="selectionEntry"/>
     <entryLink id="c7aa-e1f0-a490-d2fc" name="Factory" hidden="false" collective="false" import="true" targetId="b371-9f03-afad-c84d" type="selectionEntry"/>
-    <entryLink id="f7ad-ff5f-6f76-7e1e" name="Emerge / Subterrain Strike" hidden="false" collective="false" import="true" targetId="f3a0-1ec4-f51d-18e4" type="selectionEntry"/>
     <entryLink id="d94e-80da-1ea7-1a2a" name="Avenger" hidden="false" collective="false" import="true" targetId="94ad-6f9c-a0a4-286b" type="selectionEntry"/>
     <entryLink id="05e3-61ea-05f0-ffc4" name="Unbroken" hidden="false" collective="false" import="true" targetId="8043-5838-f4b2-eb84" type="selectionEntry"/>
     <entryLink id="7c64-9da1-68fc-3763" name="Gyrobot" hidden="false" collective="false" import="true" targetId="56c8-6e4f-5a96-5e55" type="selectionEntry"/>
@@ -545,7 +544,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54a8-1f81-7779-3782" type="max"/>
               </constraints>
               <profiles>
-                <profile id="d693-0e73-a40b-f3a0" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                <profile id="d693-0e73-a40b-f3a0" name="Deployment  Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
                   <characteristics>
                     <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Emerge</characteristic>
                     <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Subterrain Strike</characteristic>
@@ -564,7 +563,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27f5-4d36-442a-4aaa" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e4ee-86bd-3273-c440" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                <profile id="e4ee-86bd-3273-c440" name="Deployment  Enhancement" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
                   <characteristics>
                     <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Overheat</characteristic>
                     <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Puncture</characteristic>

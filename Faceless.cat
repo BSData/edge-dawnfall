@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3039-3e4c-8410-6780" name="Faceless" revision="2" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3039-3e4c-8410-6780" name="Faceless" revision="2" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="8fae-8622-9e83-2850" name="Evolved Squad Action">
       <characteristicTypes>
@@ -563,7 +563,6 @@
     <entryLink id="6b08-072b-e641-c4ac" name="Faceless Banner" hidden="false" collective="false" import="true" targetId="552a-a088-a76e-2681" type="selectionEntry"/>
     <entryLink id="2f6a-213c-0b73-f003" name="Incubation Chamber" hidden="false" collective="false" import="true" targetId="fb09-6a19-a599-38c2" type="selectionEntry"/>
     <entryLink id="9a95-3092-2dbb-a056" name="Hatchery" hidden="false" collective="false" import="true" targetId="616c-958a-b1d7-c524" type="selectionEntry"/>
-    <entryLink id="bd6e-d1da-b210-ed92" name="Phototaxis / Chrysalis" hidden="false" collective="false" import="true" targetId="21db-02f6-d366-d7a3" type="selectionEntry"/>
     <entryLink id="a8dd-ae98-c6ca-b38d" name="Anathema" hidden="false" collective="false" import="true" targetId="85c1-cf79-d293-b1a7" type="selectionEntry">
       <selectionEntryGroups>
         <selectionEntryGroup id="2089-ef67-bf99-c5d7" name="Deployment" hidden="false" collective="false" import="true">
@@ -574,7 +573,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8e1-95d5-671e-cc05" type="max"/>
               </constraints>
               <profiles>
-                <profile id="b0a6-8237-e255-8db6" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                <profile id="b0a6-8237-e255-8db6" name="Deployment  Enhancement" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
                   <characteristics>
                     <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Rapid Mutation</characteristic>
                     <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Abomination</characteristic>
@@ -594,7 +593,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4756-256f-d58e-0efe" type="max"/>
               </constraints>
               <profiles>
-                <profile id="3643-3206-9f1a-d334" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                <profile id="3643-3206-9f1a-d334" name="Deployment  Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
                   <characteristics>
                     <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Phototaxis</characteristic>
                     <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Chrysalis</characteristic>
