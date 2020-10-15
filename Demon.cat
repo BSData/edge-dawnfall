@@ -24,9 +24,9 @@
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5125-c586-3955-e551" type="max"/>
       </constraints>
       <profiles>
-        <profile id="157b-01e7-ec22-1fe3" name="Combat / Resurrection" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+        <profile id="157b-01e7-ec22-1fe3" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
           <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Combar</characteristic>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Combat</characteristic>
             <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Resurrection</characteristic>
             <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
             <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">4</characteristic>
@@ -44,7 +44,7 @@
       <profiles>
         <profile id="138a-55ee-fa18-3fc0" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
           <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Combar</characteristic>
+            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Combat</characteristic>
             <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Horde</characteristic>
             <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Any</characteristic>
             <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">5</characteristic>
@@ -67,7 +67,7 @@
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8093-2b69-10a0-0f07" type="max"/>
       </constraints>
       <profiles>
-        <profile id="dafa-9685-7aa9-a8bc" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+        <profile id="dafa-9685-7aa9-a8bc" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
           <characteristics>
             <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Dark Power</characteristic>
             <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Fireball</characteristic>
@@ -93,7 +93,7 @@
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2328-e14e-3182-1d9d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bd29-4404-2f3b-686c" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+        <profile id="bd29-4404-2f3b-686c" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
           <characteristics>
             <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Defense</characteristic>
             <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Crystal Aegis</characteristic>
@@ -119,7 +119,7 @@
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9279-c9fc-5709-967f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="c0ff-4118-1858-836b" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+        <profile id="c0ff-4118-1858-836b" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
           <characteristics>
             <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Dark Power</characteristic>
             <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Ice Beam</characteristic>
@@ -145,7 +145,7 @@
         <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac60-38ba-9d6a-525b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9d81-182a-88ae-295a" name="Profile" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+        <profile id="9d81-182a-88ae-295a" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
           <characteristics>
             <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Teleport</characteristic>
             <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Freeze</characteristic>
