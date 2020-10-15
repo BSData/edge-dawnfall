@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="556b-8b8a-3c6c-e7d3" name="Chapter" revision="1" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="556b-8b8a-3c6c-e7d3" name="Chapter" revision="2" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="fdb5-639c-1bdb-70e4" name="Combat / Storm of Blades" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -376,31 +376,6 @@
         <categoryLink id="4aa5-de62-be57-b1e7" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry id="cb4e-8485-2e3d-4837" name="Haste / Gallop" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="28d4-b15b-85cf-b3d8" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3539-8b8c-e1d1-fcd6" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="5b32-44f3-ad72-230d" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Haste</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Gallop</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Holy Riders</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="6594-bf88-9465-1045" name="New CategoryLink" hidden="false" targetId="5343-b9d5-97e2-5e04" primary="true"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry id="7ea8-1b50-c191-dfe2" name="Dodge / Shoot" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -593,7 +568,53 @@
   <entryLinks>
     <entryLink id="508e-e3af-ae5f-7cdf" name="Angel of Death" hidden="false" collective="false" import="true" targetId="7691-38ab-a115-d7ce" type="selectionEntry"/>
     <entryLink id="7f50-c634-0367-46e7" name="Holy Knight" hidden="false" collective="false" import="true" targetId="032f-fa6a-97ae-1fa7" type="selectionEntry"/>
-    <entryLink id="7662-fceb-36c8-9825" name="Holy Riders" hidden="false" collective="false" import="true" targetId="28d4-b15b-85cf-b3d8" type="selectionEntry"/>
+    <entryLink id="7662-fceb-36c8-9825" name="Holy Riders" hidden="false" collective="false" import="true" targetId="28d4-b15b-85cf-b3d8" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7611-5645-7fe7-1e71" name="Deployment" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="c24f-5b2f-208f-b4ae" name="Haste / Gallop" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02a5-62ba-6b11-a006" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eedd-9579-70cd-2b3b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6a1e-3831-0a88-8526" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Haste</characteristic>
+                    <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Gallop</characteristic>
+                    <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Holy Riders</characteristic>
+                    <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="7048-96e3-57fb-0a3f" name="Deployment" hidden="false" targetId="ae92-56d7-4374-8b57" primary="false"/>
+                <categoryLink id="c3b1-217a-b3d9-0cd3" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="de83-5baf-8b37-1294" name="Reinforcements / Winged Charge" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5998-b148-3f34-6ad0" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2edf-6416-292b-d0a6" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8324-efe1-e677-0dcc" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Reinforcements</characteristic>
+                    <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Winged Charge</characteristic>
+                    <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Holy Riders</characteristic>
+                    <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="1d9d-9c75-38fe-43db" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
     <entryLink id="9830-f1d4-75cf-1f8a" name="Pilgrim" hidden="false" collective="false" import="true" targetId="8657-d228-7064-260a" type="selectionEntry"/>
     <entryLink id="7ae1-5f88-91df-2891" name="Purge Doctor" hidden="false" collective="false" import="true" targetId="c22d-aab1-9061-0efd" type="selectionEntry"/>
     <entryLink id="5e9c-1fd6-b20c-6d4d" name="Ranger" hidden="false" collective="false" import="true" targetId="cc4f-633f-f524-ad49" type="selectionEntry"/>
@@ -601,6 +622,5 @@
     <entryLink id="9685-12bd-2102-1537" name="Frontline Chapel" hidden="false" collective="false" import="true" targetId="fc46-b576-2e3a-1515" type="selectionEntry"/>
     <entryLink id="9583-6e24-08f9-08e0" name="Chapter Banner" hidden="false" collective="false" import="true" targetId="9ab9-9d4a-3aa9-b924" type="selectionEntry"/>
     <entryLink id="361a-ab56-0ec7-0d07" name="Alternative Chapter Banner" hidden="false" collective="false" import="true" targetId="be35-556b-320c-3709" type="selectionEntry"/>
-    <entryLink id="6a52-fcce-c9ce-a641" name="Reinforcements / Winged Charge" hidden="false" collective="false" import="true" targetId="579a-4b9b-2c7b-e7c8" type="selectionEntry"/>
   </entryLinks>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="ec55-9fdc-cdc9-5247" name="Edge: Dawnfall 1.16" revision="1" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="ec55-9fdc-cdc9-5247" name="Edge: Dawnfall 1.16" revision="2" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profileTypes>
     <profileType id="5177-fd41-ffd4-cf57" name="Squad">
       <characteristicTypes>
@@ -39,7 +39,6 @@
     <categoryEntry id="d4c6-7c34-f64a-1ac0" name="Leader" hidden="false"/>
     <categoryEntry id="aaf6-ddfb-1ea1-ec90" name="Enhancement" hidden="false"/>
     <categoryEntry id="ae92-56d7-4374-8b57" name="Deployment" hidden="false"/>
-    <categoryEntry id="5343-b9d5-97e2-5e04" name="Deployment Enhancement" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="8cee-1cd5-3eff-42e6" name="Normal" hidden="false">
@@ -109,12 +108,6 @@
           <constraints>
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="389b-fa49-e1fe-0da3" type="min"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="201d-9c54-c994-9764" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3fde-672c-9449-9f9f" name="Deployment Enhancement" hidden="false" targetId="5343-b9d5-97e2-5e04" primary="false">
-          <constraints>
-            <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f85-aeb3-e7e7-6ca9" type="min"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a39-27ea-a1f9-66fa" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -330,28 +323,6 @@ Restore 1 Endurance to 1 Squad.</characteristic>
         <categoryLink id="ae8c-e917-e35f-c310" name="New CategoryLink" hidden="false" targetId="1e7b-e900-34aa-19c7" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry id="579a-4b9b-2c7b-e7c8" name="Reinforcements / Winged Charge" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="28d4-b15b-85cf-b3d8" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile id="dae4-5a0b-c2c1-5af0" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Reinforcements</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Winged Charge</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Holy Riders</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="e189-5976-c585-055d" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="true"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry id="17f0-5a5f-234a-1c32" name="Alternative Demon Banner" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="06b8-2419-d6c7-f4f7" name="Banner" hidden="false" typeId="6e88-0398-10d6-fea3" typeName="Shrine&amp;Banner">
@@ -533,28 +504,6 @@ Counts as a Crystal Source.</characteristic>
       <categoryLinks>
         <categoryLink id="4c93-c941-f55e-3639" name="Squad" hidden="false" targetId="9337-2409-058d-6fe4" primary="true"/>
         <categoryLink id="c309-d77c-1b9c-f747" name="Cavalry" hidden="false" targetId="13af-cd5e-bea3-2f72" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry id="fdc0-823d-59b8-0ebe" name="Cantrip / Appearance" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c2e1-f866-1d2b-3972" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile id="99d2-7e12-382f-7100" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Cantrip</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Appearance</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Succubus</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="ce56-14e7-d866-785b" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="true"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry id="9f73-a7de-ebe6-61c7" name="Gorehound" hidden="false" collective="false" import="true" type="unit">
@@ -789,28 +738,6 @@ Movable shrine.</characteristic>
         <categoryLink id="32d3-0dda-f127-c14d" name="Cavalry" hidden="false" targetId="13af-cd5e-bea3-2f72" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry id="d842-9b48-eac6-d059" name="Descend / From the Skies" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb5d-ec78-3179-af5a" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile id="041b-596d-bfb3-49de" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Descend</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">From the Skies</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Jumpsuit</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="4be5-d84e-09e4-4b03" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="true"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry id="c7cd-d820-181e-2d66" name="Dvergar Banner" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="1836-b1d3-cbba-03b5" name="Banner" hidden="false" typeId="6e88-0398-10d6-fea3" typeName="Shrine&amp;Banner">
@@ -888,28 +815,6 @@ pick up 1 Endurance from Shrine.</characteristic>
       <categoryLinks>
         <categoryLink id="e22d-30e6-82bc-c826" name="Squad" hidden="false" targetId="9337-2409-058d-6fe4" primary="true"/>
         <categoryLink id="c485-29b6-0a76-e70e" name="Cavalry" hidden="false" targetId="13af-cd5e-bea3-2f72" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry id="f3a0-1ec4-f51d-18e4" name="Emerge / Subterrain Strike" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dd44-5098-7305-66e3" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile id="92d0-c48d-ad3d-41a5" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Emerge</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Subterrain Strike</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Driller</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="e402-966b-4b48-dd06" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="true"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry id="5da8-0892-c015-e0dc" name="Flame Keeper" hidden="false" collective="false" import="true" type="unit">
@@ -1271,28 +1176,6 @@ Add 2 Charges to Squad adjecent to Thicket.</characteristic>
         <categoryLink id="81e6-0ee5-9777-5cdf" name="Elite" hidden="false" targetId="4ddc-91f7-6818-d67d" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry id="96c5-2b10-de44-d02e" name="Symbiosis / Manifestation" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="70c6-4137-b90e-6607" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile id="eefd-a924-591f-132a" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Symbiosis</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Manifestation</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Forest Wraith</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="fccb-eebc-2866-666d" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="true"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry id="fb09-6a19-a599-38c2" name="Incubation Chamber" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="2488-3c82-2418-914e" name="Shrine" hidden="false" typeId="6e88-0398-10d6-fea3" typeName="Shrine&amp;Banner">
@@ -1490,28 +1373,6 @@ When play an Evolve, bring back dead models from Evolving Squad.</characteristic
       <categoryLinks>
         <categoryLink id="e2be-b98d-c35e-bb97" name="Squad" hidden="false" targetId="9337-2409-058d-6fe4" primary="true"/>
         <categoryLink id="e110-a3b3-9fbf-5376" name="Leader" hidden="false" targetId="d4c6-7c34-f64a-1ac0" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry id="21db-02f6-d366-d7a3" name="Phototaxis / Chrysalis" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="85c1-cf79-d293-b1a7" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile id="3c57-0e9b-0ce1-d5eb" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Phototaxis</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Chrysalis</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Anathema</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="f0c9-a2ac-e650-5713" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="true"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry id="8753-d2a3-93f5-3c74" name="Alternative Darkness Banner" hidden="false" collective="false" import="true" type="upgrade">
@@ -1715,28 +1576,6 @@ When play an Evolve, bring back dead models from Evolving Squad.</characteristic
       </profiles>
       <categoryLinks>
         <categoryLink id="e97e-c98d-8a06-3a59" name="Squad" hidden="false" targetId="9337-2409-058d-6fe4" primary="true"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry id="08ce-59fa-c526-78db" name="Birth / Darkness Herald" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="120f-739e-9838-7542" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <profiles>
-        <profile id="04fb-c27b-fec1-47d1" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Birth</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Darkness Herald</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Prime Shadow</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="3c34-85bd-011c-1fd5" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="true"/>
       </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>

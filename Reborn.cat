@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="57c0-8976-ce36-36de" name="Reborn" revision="1" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="57c0-8976-ce36-36de" name="Reborn" revision="2" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="47a6-3234-a59b-dfc5" name="Herbs / Empowering" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -49,31 +49,6 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="fc06-3e9b-44c2-a794" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry id="1e89-d5ff-e02e-eb04" name="Additional Wound / Thorn Beast" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="70c6-4137-b90e-6607" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e79-3831-fb76-0cf5" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="c542-0936-4378-96f6" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Additional Wound</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Thorn Beast</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Forest Wraith</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="6ee0-93f2-bbbe-fcfc" name="Deployment Enhancement" hidden="false" targetId="5343-b9d5-97e2-5e04" primary="true"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry id="f06f-76f8-f9a5-64d6" name="Sprout / Seed" hidden="false" collective="false" import="true" type="upgrade">
@@ -600,7 +575,53 @@
     <entryLink id="438b-0e91-82d7-f0d7" name="Thornheart Wood" hidden="false" collective="false" import="true" targetId="3682-6030-dd87-c8ac" type="selectionEntry"/>
     <entryLink id="1e35-dfd4-e32c-6db6" name="Sapping Briar" hidden="false" collective="false" import="true" targetId="a696-f546-97ff-fa30" type="selectionEntry"/>
     <entryLink id="daed-a839-430f-0822" name="Warbeast" hidden="false" collective="false" import="true" targetId="8351-8a80-1e7e-eb45" type="selectionEntry"/>
-    <entryLink id="eab4-f24a-18d3-4250" name="Forest Wraith" hidden="false" collective="false" import="true" targetId="70c6-4137-b90e-6607" type="selectionEntry"/>
+    <entryLink id="eab4-f24a-18d3-4250" name="Forest Wraith" hidden="false" collective="false" import="true" targetId="70c6-4137-b90e-6607" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="314d-2c23-dce3-258d" name="Deployment" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="ec43-1ffb-aa8b-4e94" name="Additional Wound / Thorn Beast" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bbb-4fe7-6a1c-511d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16ed-f8da-1936-d83c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="bc82-0c15-1b0e-26e1" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Additional Wound</characteristic>
+                    <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Thorn Beast</characteristic>
+                    <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Forest Wraith</characteristic>
+                    <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="3766-a983-0815-4d55" name="Deployment" hidden="false" targetId="ae92-56d7-4374-8b57" primary="false"/>
+                <categoryLink id="7ab5-79e4-b22c-645d" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="aafd-d4c2-c334-21ed" name="Symbiosis / Manifestation" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5411-45c0-49a5-91de" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff5c-2667-5255-f84f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="33a4-4948-46e5-6e7a" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Symbiosis</characteristic>
+                    <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Manifestation</characteristic>
+                    <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Forest Wraith</characteristic>
+                    <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="f327-fdf3-9877-a912" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
     <entryLink id="0595-2a01-cb0d-2b70" name="Ancient Guard" hidden="false" collective="false" import="true" targetId="fca3-1094-7b0b-55e2" type="selectionEntry"/>
     <entryLink id="556a-851a-5f6f-d027" name="Wyrm" hidden="false" collective="false" import="true" targetId="5291-e8b8-54c3-5cf7" type="selectionEntry"/>
     <entryLink id="2539-2ec0-dead-775d" name="Blight Steed" hidden="false" collective="false" import="true" targetId="cf75-5213-9aa2-f55c" type="selectionEntry"/>

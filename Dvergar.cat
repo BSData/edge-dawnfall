@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="86ce-4953-5e80-27e6" name="Dvergar" revision="1" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="86ce-4953-5e80-27e6" name="Dvergar" revision="2" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f9b9-add4-5021-81b3" name="Combat / Radiostation" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -322,31 +322,6 @@
         <categoryLink id="a155-35ab-63a4-7d6a" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry id="8e44-9177-8411-1f89" name="Overheat / Puncture" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="dd44-5098-7305-66e3" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcbb-a2c9-b644-b3a1" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="53db-3380-46e3-dcd3" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Overheat</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Puncture</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Drillers</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="e06e-3589-27d9-4d14" name="New CategoryLink" hidden="false" targetId="5343-b9d5-97e2-5e04" primary="true"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry id="caaf-adff-6fdf-fdba" name="Refresh Crystals / Crystal Breaker" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -560,6 +535,52 @@
     <entryLink id="7c64-9da1-68fc-3763" name="Gyrobot" hidden="false" collective="false" import="true" targetId="56c8-6e4f-5a96-5e55" type="selectionEntry"/>
     <entryLink id="8121-d77a-434b-55a9" name="Enkindled" hidden="false" collective="false" import="true" targetId="768e-f27a-b88d-5aa9" type="selectionEntry"/>
     <entryLink id="6403-23e4-091f-f3c4" name="Flame Keeper" hidden="false" collective="false" import="true" targetId="5da8-0892-c015-e0dc" type="selectionEntry"/>
-    <entryLink id="8bd4-9690-5101-7e1f" name="Drillers" hidden="false" collective="false" import="true" targetId="dd44-5098-7305-66e3" type="selectionEntry"/>
+    <entryLink id="8bd4-9690-5101-7e1f" name="Drillers" hidden="false" collective="false" import="true" targetId="dd44-5098-7305-66e3" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="65e7-eb0f-7fcf-865e" name="Deployment" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="1f59-33ee-b367-0bde" name="Emerge / Subterrain Strike" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99df-aa9b-631e-f246" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54a8-1f81-7779-3782" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d693-0e73-a40b-f3a0" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Emerge</characteristic>
+                    <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Subterrain Strike</characteristic>
+                    <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Driller</characteristic>
+                    <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="5b18-0da9-2c5d-6923" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="3bb4-aec0-3256-68ff" name="Overheat / Puncture" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76b8-d141-a11e-0572" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27f5-4d36-442a-4aaa" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e4ee-86bd-3273-c440" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Overheat</characteristic>
+                    <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Puncture</characteristic>
+                    <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Drillers</characteristic>
+                    <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="dbf3-ccde-dca6-c5c6" name="Deployment" hidden="false" targetId="ae92-56d7-4374-8b57" primary="false"/>
+                <categoryLink id="7239-140b-499d-6ec7" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
   </entryLinks>
 </catalogue>

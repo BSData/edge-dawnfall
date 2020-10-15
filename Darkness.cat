@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0bbe-1767-764c-8aad" name="Darkness" revision="1" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0bbe-1767-764c-8aad" name="Darkness" revision="2" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="17ad-aea3-540d-299a" name="Squad Banner">
       <characteristicTypes>
@@ -37,32 +37,6 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="2f57-a4d3-050f-642c" name="New CategoryLink" hidden="false" targetId="2c7d-bd50-5e7a-6c03" primary="true"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry id="ea08-34a9-8de8-349a" name="Deceit / Dark Reflection" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="120f-739e-9838-7542" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="713d-53c9-5838-8707" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="7ca9-7485-6f33-9ce4" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Deceit</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Dark Reflection</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Prime Shadow</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="b055-a1e9-63e7-0143" name="New CategoryLink" hidden="false" targetId="5343-b9d5-97e2-5e04" primary="true"/>
-        <categoryLink id="ca90-d076-64c9-e172" name="New CategoryLink" hidden="false" targetId="5343-b9d5-97e2-5e04" primary="false"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry id="1182-2fa3-1165-20e6" name="Portal / Cauterisation" hidden="false" collective="false" import="true" type="upgrade">
@@ -542,6 +516,52 @@
     <entryLink id="df9f-43ab-ddca-720b" name="Slaughter Crows" hidden="false" collective="false" import="true" targetId="38ad-dee4-3684-11da" type="selectionEntry"/>
     <entryLink id="5dce-ccc6-4db2-61e3" name="Bell Crow" hidden="false" collective="false" import="true" targetId="d8e7-fdfc-2e2f-8c41" type="selectionEntry"/>
     <entryLink id="6d57-af59-0ac6-2cf4" name="Shadow" hidden="false" collective="false" import="true" targetId="2cf3-aaf8-0ede-6b81" type="selectionEntry"/>
-    <entryLink id="9b03-fd6f-26ef-b587" name="Prime Shadow" hidden="false" collective="false" import="true" targetId="120f-739e-9838-7542" type="selectionEntry"/>
+    <entryLink id="9b03-fd6f-26ef-b587" name="Prime Shadow" hidden="false" collective="false" import="true" targetId="120f-739e-9838-7542" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="209e-7c7a-0a46-f010" name="Deployment" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="5d5e-402f-f38c-a70f" name="Deceit / Dark Reflection" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d0a-8497-a756-5b58" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7743-5835-7211-8dfd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b7fd-d8f1-7864-803e" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Deceit</characteristic>
+                    <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Dark Reflection</characteristic>
+                    <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Prime Shadow</characteristic>
+                    <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="1d76-2454-0be0-9d42" name="Deployment" hidden="false" targetId="ae92-56d7-4374-8b57" primary="false"/>
+                <categoryLink id="1cff-7665-fa3f-5220" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="f7ff-2aca-4837-287e" name="Birth / Darkness Herald" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a90-541e-1c6f-4506" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0349-a7a1-3578-17ac" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6712-a123-6f62-a166" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Birth</characteristic>
+                    <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Darkness Herald</characteristic>
+                    <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Prime Shadow</characteristic>
+                    <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="7edc-1bd3-9b55-1e8a" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
   </entryLinks>
 </catalogue>

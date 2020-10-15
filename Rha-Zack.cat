@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0708-55e3-5a20-0c89" name="Rha-Zack" revision="1" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0708-55e3-5a20-0c89" name="Rha-Zack" revision="2" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="1272-9a17-0785-907b" name="Temporary Setback / Lightning Strike" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fb5d-ec78-3179-af5a" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2596-707e-8ef2-0532" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="b103-7ea4-6edb-1532" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Temporary Setback</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Lightning Strike</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Jumpsuit</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="e6ed-0f12-19cf-7fae" name="New CategoryLink" hidden="false" targetId="5343-b9d5-97e2-5e04" primary="true"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry id="d0a5-2db8-406b-2381" name="Energy Cloud / Barrier" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -573,7 +548,53 @@
     <entryLink id="ec1e-9a02-f5b1-4051" name="Rha-Zack Alternative Banner" hidden="false" collective="false" import="true" targetId="3609-53be-80c4-921c" type="selectionEntry"/>
     <entryLink id="26c0-e558-bb9e-e379" name="Voltaic Capacitor" hidden="false" collective="false" import="true" targetId="0b2e-d015-91a3-6fbe" type="selectionEntry"/>
     <entryLink id="fbe0-c39e-0329-3ee1" name="Energy Cloud" hidden="false" collective="false" import="true" targetId="6b8e-5816-6e13-57aa" type="selectionEntry"/>
-    <entryLink id="65e1-a117-e46d-9ab2" name="Jumpsuit" hidden="false" collective="false" import="true" targetId="fb5d-ec78-3179-af5a" type="selectionEntry"/>
+    <entryLink id="65e1-a117-e46d-9ab2" name="Jumpsuit" hidden="false" collective="false" import="true" targetId="fb5d-ec78-3179-af5a" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2662-4dd6-1347-f664" name="Deployment" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="ae6a-dc11-67ab-b826" name="Temporary Setback / Lightning Strike" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7f7-f25a-608c-58f7" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="134d-6b88-363a-d61f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d215-2ae1-13b6-31ee" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Temporary Setback</characteristic>
+                    <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Lightning Strike</characteristic>
+                    <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Jumpsuit</characteristic>
+                    <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="3d99-d12d-8907-bae8" name="Deployment" hidden="false" targetId="ae92-56d7-4374-8b57" primary="false"/>
+                <categoryLink id="286b-5ffc-2148-0c48" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="6a33-df4a-dc39-17fd" name="Descend / From the Skies" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b75-1d64-8f05-0cf4" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c23-d01a-1770-4d90" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8f76-c317-d8ef-cb19" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Descend</characteristic>
+                    <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">From the Skies</characteristic>
+                    <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Jumpsuit</characteristic>
+                    <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="635c-d014-cdd2-0b72" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
     <entryLink id="e41a-0a63-f704-0da7" name="Source Blade" hidden="false" collective="false" import="true" targetId="449c-443c-6a52-cadf" type="selectionEntry"/>
     <entryLink id="956b-3781-65d5-712e" name="Stream Guard" hidden="false" collective="false" import="true" targetId="8e06-f08b-c7a8-8345" type="selectionEntry"/>
     <entryLink id="6083-4caf-7e28-edc9" name="Stream Surfer" hidden="false" collective="false" import="true" targetId="8cbf-47c2-f467-0ed1" type="selectionEntry"/>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2578-a414-22f0-4018" name="Demon" revision="1" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2578-a414-22f0-4018" name="Demon" revision="2" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" library="false" gameSystemId="ec55-9fdc-cdc9-5247" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="6d6a-235d-a049-8265" name="New CategoryEntry" hidden="false"/>
+  </categoryEntries>
   <selectionEntries>
     <selectionEntry id="1128-462c-c6ae-2c75" name="Move / Mist" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -390,31 +393,6 @@
         <categoryLink id="a125-b2f2-70b0-0d83" name="Enchantment" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry id="cbaa-69e9-6ab9-2983" name="Trickery / Venomous Kiss" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c2e1-f866-1d2b-3972" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca11-c8d3-cf4f-b816" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="6f4b-c40c-e596-dcac" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
-          <characteristics>
-            <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Trickery</characteristic>
-            <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Venomous Kiss</characteristic>
-            <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Succubus</characteristic>
-            <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink id="554e-1b18-a5f5-0611" name="New CategoryLink" hidden="false" targetId="5343-b9d5-97e2-5e04" primary="true"/>
-      </categoryLinks>
-    </selectionEntry>
     <selectionEntry id="fa56-f3ce-968a-8649" name="Charging / Soul Steal" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -577,8 +555,53 @@
     <entryLink id="8fed-f48d-9ce3-a13b" name="Alternative Demon Banner" hidden="false" collective="false" import="true" targetId="17f0-5a5f-234a-1c32" type="selectionEntry"/>
     <entryLink id="1a43-d576-6222-07d3" name="Son of Khyber" hidden="false" collective="false" import="true" targetId="fffb-a378-416e-57c2" type="selectionEntry"/>
     <entryLink id="705b-d108-1203-6f8a" name="Dark Scholar" hidden="false" collective="false" import="true" targetId="f9e2-818f-b66c-4393" type="selectionEntry"/>
-    <entryLink id="c7ac-b7aa-7b65-2bd4" name="Succubus" hidden="false" collective="false" import="true" targetId="c2e1-f866-1d2b-3972" type="selectionEntry"/>
     <entryLink id="4d0b-73f6-86e5-5a15" name="Gorehound" hidden="false" collective="false" import="true" targetId="9f73-a7de-ebe6-61c7" type="selectionEntry"/>
-    <entryLink id="8f63-18f4-cdaa-7763" name="Cantrip / Appearance" hidden="false" collective="false" import="true" targetId="fdc0-823d-59b8-0ebe" type="selectionEntry"/>
+    <entryLink id="d445-6afb-4572-329a" name="Succubus" hidden="false" collective="false" import="true" targetId="c2e1-f866-1d2b-3972" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="85bf-d4b7-3ca1-a8d8" name="Deployment" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="da4d-6a14-6cdb-2826" name="Cantrip / Appearance" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de3b-3da5-fdfe-2031" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78d9-3473-71f1-9f68" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6ada-690e-dc7c-df95" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Cantrip</characteristic>
+                    <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Appearance</characteristic>
+                    <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Succubus</characteristic>
+                    <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="02e8-acca-6e30-b84e" name="New CategoryLink" hidden="false" targetId="ae92-56d7-4374-8b57" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="05f0-84bb-86e0-9c2b" name="Trickery / Venomous Kiss" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e02-6813-2107-d689" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3145-ee5c-ed7c-0802" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="f3ad-1845-989d-c4e9" name="Action" hidden="false" typeId="c7fb-3192-ca76-8d92" typeName="Action">
+                  <characteristics>
+                    <characteristic name="Top Action" typeId="c646-7cd4-ba2f-267c">Trickery</characteristic>
+                    <characteristic name="Bottom Action" typeId="3c5c-4360-dcf5-6087">Venomous Kiss</characteristic>
+                    <characteristic name="Squad" typeId="c352-2911-cb6a-f6cb">Succubus</characteristic>
+                    <characteristic name="Card count" typeId="061e-3320-8c3a-c2be">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="068c-a939-979e-7451" name="Deployment" hidden="false" targetId="ae92-56d7-4374-8b57" primary="false"/>
+                <categoryLink id="e08e-9375-f63f-4cf9" name="Enhancement" hidden="false" targetId="aaf6-ddfb-1ea1-ec90" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
   </entryLinks>
 </catalogue>
