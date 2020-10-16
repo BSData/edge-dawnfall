@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="ec55-9fdc-cdc9-5247" name="Edge: Dawnfall 1.16" revision="2" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="ec55-9fdc-cdc9-5247" name="Edge: Dawnfall 1.16" revision="3" battleScribeVersion="2.03" authorName="Tamas &quot;Blackfire&quot; Mate" authorContact="blackfire@lion-productions.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profileTypes>
     <profileType id="5177-fd41-ffd4-cf57" name="Squad">
       <characteristicTypes>
@@ -107,7 +107,7 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="389b-fa49-e1fe-0da3" type="min"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="201d-9c54-c994-9764" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="201d-9c54-c994-9764" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
